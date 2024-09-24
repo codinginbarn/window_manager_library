@@ -19,14 +19,14 @@ function WindowManager(window_container, window_template, log_enable) {
 
 	// window minimum size for resizing any window(can be overwritten by data-max-w/data-max-h attribute)
 	this.resize_size_limits = {
-		min_w: 300,
-		min_h: 200,
+		min_w: 400,
+		min_h: 300,
 	}
 
 	// size limit for newly created windows who's size can be detected in the iframe's onload()
 	this.create_size_limits = {
-		min_w: 300,
-		min_h: 200,
+		min_w: 600,
+		min_h: 400,
 		max_w: window.innerWidth*0.8,
 		max_h: window.innerHeight*0.8,
 	}
