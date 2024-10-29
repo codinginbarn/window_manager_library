@@ -191,7 +191,7 @@ body {
 	position: absolute;
 	top: 100%;
 	left: 0;
-	width: 200px;
+	min-width: 200px;
 	border: 1px solid #888;
 	background-color: #fff;
 	z-index: 1100;

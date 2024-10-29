@@ -277,11 +277,12 @@ body {
 	display: block;
 	padding: 4px;
 	margin: 0 0 ;
-	height: 16px;
+	min-height: 16px;
 	line-height: 16px;
 	text-decoration: none !important;
 	color: #111111;
 	cursor: pointer;
+	white-space: nowrap;
 }
 .menu-item input[type=checkbox],.menu-item input[type=radio] {
 	margin: 0 0;
@@ -325,7 +326,7 @@ body {
 	position: absolute;
 	top: 100%;
 	left: 0;
-	width: 200px;
+	min-width: 200px;
 	border: 1px solid #888;
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
 	background-color: #FAFAFA;

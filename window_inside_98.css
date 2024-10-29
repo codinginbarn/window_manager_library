@@ -160,11 +160,12 @@ body {
 	display: block;
 	padding: 2px 4px;
 	margin: 2px;
-	height: 16px;
+	min-height: 16px;
 	line-height: 16px;
 	text-decoration: none !important;
 	color: #111;
 	cursor: pointer;
+	white-space: nowrap;
 }
 .menu-item input[type=checkbox],.menu-item input[type=radio] {
 	width: 12px;
@@ -206,7 +207,7 @@ body {
 	position: absolute;
 	top: 100%;
 	left: 0;
-	width: 175px;
+	min-width: 175px;
 	box-shadow: 3px 3px 0 rgba(0,0,0,0.4), inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
 	background-color: silver;
 	z-index: 1100;
